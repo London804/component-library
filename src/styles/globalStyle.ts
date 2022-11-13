@@ -271,11 +271,8 @@ export const getGlobalStyleSheet = (theme: 'light' | 'dark') => {
 
       --cl-duration-50:  ${currentTheme['duration-50']};
       --cl-duration-100: ${currentTheme['duration-100']};
-      --cl-duration-150: ${currentTheme['duration-150']};
       --cl-duration-200: ${currentTheme['duration-200']};
-      --cl-duration-250: ${currentTheme['duration-250']};
       --cl-duration-300: ${currentTheme['duration-300']};
-      --cl-duration-350: ${currentTheme['duration-350']};
       --cl-duration-400: ${currentTheme['duration-400']};
 
       --cl-motion-linear: ${currentTheme.linear};
