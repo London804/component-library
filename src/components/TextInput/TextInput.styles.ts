@@ -19,10 +19,10 @@ export const StyledInput = styled.input<{
   max-width: 100%;
   height: var(--cl-space-7);
   padding: 0 var(--cl-space-2);
-  background-color: var(--cl-background-default);
-  color: var(--cl-text-default);
+  background-color: white;
+  color: black;
   border-radius: var(--cl-radius-2);
-  border: 1px solid var(--cl-border-default);
+  border: 1px solid black;
   font-size: var(--cl-font-size-2);
   line-height: var(--cl-line-height-2);
   font-family: var(--cl-font-family-default);
