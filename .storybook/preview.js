@@ -1,3 +1,4 @@
+// original
 // export const parameters = {
 //   actions: { argTypesRegex: "^on[A-Z].*" },
 //   controls: {
@@ -27,6 +28,7 @@ addDecorator(story => {
   );
 });
 
+// not necessary
 // addParameters({
 //   options: {
 //     theme: alloyTheme,

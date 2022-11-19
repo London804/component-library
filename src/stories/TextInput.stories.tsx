@@ -101,14 +101,14 @@ Default.args = {
     style: {},
 };
 
-export const IconInput = Template.bind({});
+// export const IconInput = Template.bind({});
 
-IconInput.args = {
-    disabled: false,
-    style: {},
-    // leadingIcon: IconName.AddDocument,
-    // trailingIcon: IconName.Approved,
-};
+// IconInput.args = {
+//     disabled: false,
+//     style: {},
+//     // leadingIcon: IconName.AddDocument,
+//     // trailingIcon: IconName.Approved,
+// };
 
 export const TextFieldWithLabel = () => {
     const [state, setState] = useState(0);
