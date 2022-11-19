@@ -7,7 +7,7 @@
 //     },
 //   },
 // }
-
+import React from 'react';
 import { getGlobalStyleSheet } from '../src/styles/globalStyle';
 import { addDecorator, addParameters } from '@storybook/react';
 import { createGlobalStyle } from 'styled-components';
@@ -17,8 +17,7 @@ import { createGlobalStyle } from 'styled-components';
 addDecorator(story => {
   const styleSheet = getGlobalStyleSheet('light');
   const GlobalStyle = createGlobalStyle` ${styleSheet}`;
-
-  console.log('story', story);
+  console.log('globalStyle', GlobalStyle);
 
   return (
     <>
@@ -27,6 +26,7 @@ addDecorator(story => {
     </>
   );
 });
+
 // addParameters({
 //   options: {
 //     theme: alloyTheme,
