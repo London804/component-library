@@ -8,7 +8,7 @@ import Box from '../components/Box';
 
 // documentation
 export default {
-    title: 'Example/TextInput',
+    title: 'Form Elements/TextInput',
     component: TextInput,
     parameters: {
         controls: { expanded: true },
