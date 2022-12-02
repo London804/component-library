@@ -37,16 +37,16 @@ Default.args = {
     size: sizes.default
 };
 
-export const All = () => {
-    return (
-        <>
-            <Spinner type="primary" />
-            <Spinner type="secondary" />
-            <Spinner type="success" />
-            <Spinner type="warning" />
-            <Spinner type="danger" />
-            <Spinner type="info" />
-            <Spinner type="light" />
-        </>
-    );
-};
+// export const All = () => {
+//     return (
+//         <>
+//             <Spinner type="primary" />
+//             <Spinner type="secondary" />
+//             <Spinner type="success" />
+//             <Spinner type="warning" />
+//             <Spinner type="danger" />
+//             <Spinner type="info" />
+//             <Spinner type="light" />
+//         </>
+//     );
+// };
