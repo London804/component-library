@@ -14,24 +14,27 @@ export default {
             control: { type: 'radio'},
         },
         size: {
-            options: [sizes.default, sizes.small, sizes.large],
+            options: [32, 50, 100],
             control: {
                 type: 'radio',
                 labels: {
-                    Default: sizes.default,
-                    Small: sizes.small,
-                    Large: sizes.large
+                    32: 'small',
+                    50: 'default',
+                    100: 'large',
                 },
             },
         }
     }
 } as Meta;
 
+
+
 const Template: ComponentStory<typeof Spinner> = args => <Spinner {...args} />;
 
 export const Default = Template.bind({});
 Default.args = {
-    type: 'primary'
+    type: 'primary',
+    size: sizes.default
 };
 
 export const All = () => {
