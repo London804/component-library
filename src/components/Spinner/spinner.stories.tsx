@@ -2,7 +2,7 @@ import { Meta, ComponentMeta, ComponentStory } from '@storybook/react';
 
 import React from 'react';
 import Spinner from './spinner';
-import { sizes } from 'styles/sizes';
+import { sizes } from '../../styles/sizes';
 
 export default {
     title: 'Components/Spinner',

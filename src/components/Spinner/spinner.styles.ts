@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import { themeType, theme as typeColors } from 'styles/themes';
+import { themeType, theme as typeColors } from '../../styles/themes';
 import { spinnerWidth } from './spinner.constants';
 
 

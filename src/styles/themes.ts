@@ -2,7 +2,7 @@ import {
     Colors,
     teal,
     sky,
-} from 'styles/colors';
+} from './colors';
 
 export type themeType =
     | 'primary'
