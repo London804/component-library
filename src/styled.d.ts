@@ -21,7 +21,6 @@ declare module 'styled-components' {
         color_background_success: string;
         color_background_danger: string;
         color_background_warning: string;
-        color_background_warning: string;
         color_background_attention: string;
         color_background_retry: string;
         color_background_info: string;

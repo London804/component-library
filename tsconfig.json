@@ -1,6 +1,6 @@
 {
   "compilerOptions": {
-    "baseUrl": "src",
+    "baseUrl": ".",
     "target": "es5",
     "lib": [
       "dom",
@@ -18,10 +18,61 @@
     "moduleResolution": "node",
     "resolveJsonModule": true,
     "isolatedModules": true,
-    "noEmit": true,
-    "jsx": "react-jsx"
+    // "noEmit": true,
+    "jsx": "react-jsx",
+    "outDir": "lib",
+    "sourceMap": true,
+    "declaration": true,
+    "declarationMap": true,
   },
   "include": [
     "src"
+  ],
+  "exclude": [
+    "node_modules",
+    "**/*.test.ts",
+    "**/*.test.tsx",
+    "**/*.stories.tsx",
+    "./src/setupTests.ts"
   ]
 }
+
+
+// {
+//   "compilerOptions": {
+//     "target": "es5",
+//     "lib": [
+//       "dom",
+//       "dom.iterable",
+//       "esnext"
+//     ],
+//     "allowJs": true,
+//     "skipLibCheck": true,
+//     "esModuleInterop": true,
+//     "allowSyntheticDefaultImports": true,
+//     "strict": false,
+//     "forceConsistentCasingInFileNames": true,
+//     "module": "esnext",
+//     "moduleResolution": "node",
+//     "resolveJsonModule": true,
+//     "isolatedModules": true,
+//     "jsx": "react-jsx",
+//     "outDir": "lib",
+//     "declaration": true,
+//     "declarationMap": true,
+//     "sourceMap": true,
+//     "noFallthroughCasesInSwitch": true,
+//     "baseUrl": ".",
+//     "noEmit": true
+//   },
+//   "include": [
+//     "src"
+//   ],
+//   "exclude": [
+//     "node_modules",
+//     "**/*.test.ts",
+//     "**/*.test.tsx",
+//     "**/*.stories.tsx",
+//     "./src/setupTests.ts"
+//   ]
+// }
