@@ -1,19 +1,18 @@
 import React from 'react';
 import { StyledSpinner } from './spinner.styles';
 import { themeType } from '../../styles/themes';
-import { sizes } from '../../styles/sizes';
+import { ComponentSize, sizes } from '../../styles/sizes';
 
 export interface SpinnerProps {
     type?: themeType;
-    size?: sizes;
+    size?: ComponentSize;
     className?: string;
 }
 
 const Spinner: React.ForwardRefRenderFunction<HTMLDivElement, SpinnerProps> = (
    {
     type = 'light',
-    size = sizes.default,
-    className
+    size = ComponentSize.default,
    },
     ref
 ) => {
@@ -24,7 +23,7 @@ const Spinner: React.ForwardRefRenderFunction<HTMLDivElement, SpinnerProps> = (
         size
     };
 
-    return <StyledSpinner ref={ref} className={className} {...styles} />;
+    return <StyledSpinner ref={ref} className={`spinner--${size}`} {...styles} />;
 };
 
 export default React.forwardRef<HTMLDivElement, SpinnerProps>(Spinner);

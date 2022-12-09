@@ -2,7 +2,7 @@ import { Meta, ComponentMeta, ComponentStory } from '@storybook/react';
 
 import React from 'react';
 import Spinner from './spinner';
-import { sizes } from '../../styles/sizes';
+import { sizes, ComponentSize} from '../../styles/sizes';
 
 export default {
     title: 'Components/Spinner',
@@ -14,14 +14,14 @@ export default {
             control: { type: 'radio'},
         },
         size: {
-            options: [32, 50, 100],
+            options: ['small', 'default', 'large'],
             control: {
                 type: 'radio',
-                labels: {
-                    32: 'small',
-                    50: 'default',
-                    100: 'large',
-                },
+                // labels: {
+                //     32: 'small',
+                //     50: 'default',
+                //     100: 'large',
+                // },
             },
         }
     }
@@ -34,7 +34,7 @@ const Template: ComponentStory<typeof Spinner> = args => <Spinner {...args} />;
 export const Default = Template.bind({});
 Default.args = {
     type: 'primary',
-    size: sizes.default
+    size: ComponentSize.default
 };
 
 // export const All = () => {
