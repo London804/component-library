@@ -16,3 +16,8 @@ export {
 } from './colors'
 
 export { sizes } from './sizes';
+
+export { spacing } from './spacing';
+export { fontSize, fontWeight, lineHeight } from './typography';
+export { zIndex } from './z-index'
+export { getTheme } from './globalStyle';

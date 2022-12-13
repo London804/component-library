@@ -2,7 +2,7 @@
 
 import React, { useState, useEffect } from 'react';
 import { ComponentStory, ComponentMeta } from '@storybook/react';
-import { TextInput } from '../components/TextInput';
+import TextInput from '../components/TextInput';
 import Box from '../components/Box';
 // import { IconName } from '../Icon';
 

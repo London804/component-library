@@ -1,4 +1,4 @@
 export { default as Spinner } from './Spinner';
-export { TextInput } from './TextInput';
+export { default as TextInput } from './TextInput';
 export { default as Button } from './Button';
 //# sourceMappingURL=index.d.ts.map
