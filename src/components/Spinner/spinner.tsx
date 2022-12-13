@@ -1,7 +1,7 @@
 import React from 'react';
 import { StyledSpinner } from './spinner.styles';
 import { themeType } from '../../styles/themes';
-import { ComponentSize, sizes } from '../../styles/sizes';
+import { ComponentSize } from '../../styles/sizes';
 
 export interface SpinnerProps {
     type?: themeType;
