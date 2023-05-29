@@ -37,10 +37,10 @@ Instead, it will copy all the configuration files and the transitive dependencie
 You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
 ## Local Testing
-Test the library by simply running ‘npm pack’ in the component library root folder in terminal
-Next copy the file in the package.json and install it 
-e.g. "component-library": "file:../component-library/component-library-0.1.0.tgz",
-You can further customize tsconfig to output what you want
+- Test the library by simply running ‘npm pack’ in the component library root folder in terminal.
+- Next copy the file in the package.json and install it. 
+- e.g. "component-library": "file:../component-library/component-library-0.1.0.tgz".
+- You can further customize tsconfig to output what you want.
 
 ## Learn More
 
