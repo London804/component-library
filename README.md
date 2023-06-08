@@ -38,7 +38,7 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 
 
 ## Usage
-To install in your consuming codebase `npm i ac-component-library`
+To install in your consuming codebase `npm i ac-component-library`.
 Then import it into your component.
 e.g.
 `import { Spinner, sizes } from 'ac-component-library';`
