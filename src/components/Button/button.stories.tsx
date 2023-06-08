@@ -37,7 +37,7 @@ const Template: ComponentStory<typeof Button> = (args) => <Button {...args}>Defa
 export const Primary = Template.bind({});
 Primary.args = {
     typeBtn: 'Button',
-    type: 'Primary',
+    type: 'primary',
     size: 'default'
 };
 

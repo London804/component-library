@@ -2,8 +2,6 @@
 
 import styled, { keyframes } from 'styled-components';
 import Box from '../Box';
-// import { InputItemFocus } from '../../helpers/mixins/focus';
-// import { Icon } from '../Icon';
 
 export const StyledInput = styled.input<{
     disabled?: boolean;
@@ -60,7 +58,6 @@ export const StyledInput = styled.input<{
             : null}
 `;
 
-// To-do: make this optional for users who don't have prefered reduced motion on.
 const errorSlideOut = keyframes`
 from {
   transform: translate(0,  calc(var(--cl-space-5) * -1) );
@@ -91,17 +88,3 @@ export const OptionalSlot = styled(Box)`
   font-size: var(--cl-font-size-2);
   font-style: italic;
 `;
-
-// export const StyledIcon = styled(Icon) <{ leading: boolean }>`
-//   position: absolute;
-//   top: 50%;
-//   ${p =>
-//         p.leading
-//             ? `
-//       left: var(--cl-space-2);
-//   `
-//             : `right: var(--cl-space-2);`}
-//   transform: translateY(-50%);
-//   z-index: 1;
-// `;
-

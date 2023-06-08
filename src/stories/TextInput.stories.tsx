@@ -4,7 +4,6 @@ import React, { useState, useEffect } from 'react';
 import { ComponentStory, ComponentMeta } from '@storybook/react';
 import TextInput from '../components/TextInput';
 import Box from '../components/Box';
-// import { IconName } from '../Icon';
 
 // documentation
 export default {
@@ -36,17 +35,6 @@ export default {
                 },
             },
         },
-        // leadingIcon: {
-        //     control: { type: 'select' },
-        //     options: [...(Object.keys(IconName) as (keyof typeof IconName)[])],
-        //     description: 'Icon in the far left',
-        // },
-        // trailingIcon: {
-        //     control: { type: 'select' },
-        //     options: [...(Object.keys(IconName) as (keyof typeof IconName)[])],
-        //     description: 'Icon in the far right',
-        // },
-
         disabled: {
             options: [true, false],
             control: { type: 'inline-radio' },
@@ -101,15 +89,6 @@ Default.args = {
     style: {},
 };
 
-// export const IconInput = Template.bind({});
-
-// IconInput.args = {
-//     disabled: false,
-//     style: {},
-//     // leadingIcon: IconName.AddDocument,
-//     // trailingIcon: IconName.Approved,
-// };
-
 export const TextFieldWithLabel = () => {
     const [state, setState] = useState(0);
 
@@ -160,7 +139,7 @@ TextFieldErrorState.args = {
     disabled: false,
     style: {},
     label: 'Name',
-    value: '123nameWrong',
+    value: 'Wrong Name',
     error: true,
 };
 

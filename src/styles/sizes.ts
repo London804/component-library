@@ -45,18 +45,3 @@ export const sidePaddings: {
     small: 19,
     large: 25
 };
-
-// export enum SpinnerSizes {
-//     small: 32,
-//     default: 50,
-//     large: 100,
-// }
-// // export type ComponentSize = 'default' | 'small' | 'large';
-
-// // export const sizes: {
-// //     [key in ComponentSize]: number;
-// // } = {
-// //     default: 50,
-// //     small: 32,
-// //     large: 100
-// // };

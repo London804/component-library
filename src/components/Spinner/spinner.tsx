@@ -16,7 +16,6 @@ const Spinner: React.ForwardRefRenderFunction<HTMLDivElement, SpinnerProps> = (
    },
     ref
 ) => {
-    // const { type = 'light', size = 50, className } = props;
 
     const styles = {
         innerType: type,

@@ -17,16 +17,10 @@ export default {
             options: ['small', 'default', 'large'],
             control: {
                 type: 'radio',
-                // labels: {
-                //     32: 'small',
-                //     50: 'default',
-                //     100: 'large',
-                // },
             },
         }
     }
 } as Meta;
-
 
 
 const Template: ComponentStory<typeof Spinner> = args => <Spinner {...args} />;
@@ -36,17 +30,3 @@ Default.args = {
     type: 'primary',
     size: ComponentSize.default
 };
-
-// export const All = () => {
-//     return (
-//         <>
-//             <Spinner type="primary" />
-//             <Spinner type="secondary" />
-//             <Spinner type="success" />
-//             <Spinner type="warning" />
-//             <Spinner type="danger" />
-//             <Spinner type="info" />
-//             <Spinner type="light" />
-//         </>
-//     );
-// };
