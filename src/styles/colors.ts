@@ -114,7 +114,7 @@ export const orange = {
     'orange-600': '#EA580C',
 };
 
-// The following are "tailwind" colors; used only for tags at the moment in our designs.
+// The following are "tailwind" colors;
 export const lime = {
     'lime-200': '#DAF8A2',
     'lime-400': '#A3E635',

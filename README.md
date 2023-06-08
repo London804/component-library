@@ -36,6 +36,15 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
+
+## Usage
+To install in your consuming codebase `npm i ac-component-library`
+Then import it into your component.
+e.g.
+`import { Spinner, sizes } from 'ac-component-library';`
+
+
+
 ## Local Testing
 - Test the library by simply running ‘npm pack’ in the component library root folder in terminal.
 - Next copy the file in the package.json and install it. 
