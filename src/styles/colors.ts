@@ -14,8 +14,8 @@ export enum Colors {
     darkGray = '#464646',
     deepGray = '#8B8B82',
     neutralGray = '#CCCCC4',
-    paleGrayDisabledText = '#AFAFAF', // TODO: ask design about these legacy colors that are still being used
-    paleGrayHovered = '#D8D8D3', // TODO: ^^^^
+    paleGrayDisabledText = '#AFAFAF',
+    paleGrayHovered = '#D8D8D3', 
     paleGray = '#EBEBE6',
     softGray = '#F5F5F3',
     white = '#FFFFFF',
